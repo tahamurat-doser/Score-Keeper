@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap')
+ .josefin-sans-<uniquifier> {
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.226);
+}
+header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0;
+}
+.sec-score-1-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.sec-score-1-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.sec-score-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    font-size: 2rem;
+}
+.score-input{
+    text-align: center;
+    padding: 15px;
+    height: 50px;
+    width: 200px;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+.label{
+    height: 50px;
+    width: 200px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 10px;
+}
+.ft-div-1{
+    background-color: greenyellow;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+}
+.ft-div-2{
+    background-color: turquoise;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+}
+.ft-div-3{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+.felix, .harwey{
+    font-size: 1.5rem;
+}
